@@ -1,0 +1,45 @@
+{
+  "name": "crm-power-pane",
+  "version": "1.2.2",
+  "description": "Dynamics 365 Power Pane is a helper tool designed to integrate with Dynamics CRM/365 application and allow you to manipulate forms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "build-chrome": "npm run build -- --target=chrome",
+    "build-firefox": "npm run build -- --target=firefox",
+    "build-edge": "npm run build -- --target=edge",
+    "build-all": "node ./build/all"
+  },
+  "author": "Onur Menal",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-variables": "^1.1.1",
+    "webpack-stream": "^4.0.0",
+    "yargs": "^10.0.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onurmenal/crm-power-pane.git"
+  },
+  "keywords": [
+    "dynamics",
+    "365",
+    "crm",
+    "microsoft",
+    "chrome",
+    "firefox",
+    "extension",
+    "add-on"
+  ],
+  "bugs": {
+    "url": "https://github.com/onurmenal/crm-power-pane/issues"
+  },
+  "homepage": "https://github.com/onurmenal/crm-power-pane#readme"
+}

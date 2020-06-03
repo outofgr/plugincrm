@@ -1,0 +1,7 @@
+name: '1.2.2.$(build.buildId)'
+
+trigger:
+  - master
+
+stages:
+- template: templates/stages/build.yml
